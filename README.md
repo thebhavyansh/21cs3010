@@ -40,7 +40,7 @@ Create a `.env` file in the root directory with the following content:
 ### Step 4: Run the database migrations
 To set up the database, run the SQL migrations by executing the following:
 
-- psql -h your-database-host -U your-database-user -d railway_management -f database/migrations.sql
+- psql -h your-database-host -U your-database-user -d railway_management -f models/migrations.sql
 
 This will create the necessary tables (e.g., `users`, `trains`, `bookings`) in your PostgreSQL database.
 
