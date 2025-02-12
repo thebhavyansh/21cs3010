@@ -24,13 +24,13 @@ This is a RESTful API for a Railway Management System, similar to IRCTC, allowin
 ### Step 3: Set up environment variables
 Create a `.env` file in the root directory with the following content:
 
-DB_HOST=your-database-host
-DB_PORT=5432
-DB_USER=your-database-user
-DB_PASSWORD=your-database-password
-DB_NAME=railway_management
-JWT_SECRET=your-jwt-secret
-API_KEY=your-admin-api-key
+- DB_HOST=your-database-host
+- DB_PORT=5432
+- DB_USER=your-database-user
+- DB_PASSWORD=your-database-password
+- DB_NAME=railway_management
+- JWT_SECRET=your-jwt-secret
+- API_KEY=your-admin-api-key
 
 
 - Replace the database credentials with your actual PostgreSQL database details.
