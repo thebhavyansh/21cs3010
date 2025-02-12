@@ -20,9 +20,17 @@ This is a RESTful API for a Railway Management System, similar to IRCTC, allowin
 ### Step 1: Clone the repository
 
 ### Step 2: Install dependencies
-
+- npm install
 ### Step 3: Set up environment variables
 Create a `.env` file in the root directory with the following content:
+
+DB_HOST=your-database-host
+DB_PORT=5432
+DB_USER=your-database-user
+DB_PASSWORD=your-database-password
+DB_NAME=railway_management
+JWT_SECRET=your-jwt-secret
+API_KEY=your-admin-api-key
 
 
 - Replace the database credentials with your actual PostgreSQL database details.
@@ -37,11 +45,8 @@ To set up the database, run the SQL migrations by executing the following:
 This will create the necessary tables (e.g., `users`, `trains`, `bookings`) in your PostgreSQL database.
 
 ### Step 5: Start the server
-
+- npm start
 The API will now be running on **http://localhost:5000** by default.
-
-### Step 6: Run Tests (Optional)
-If you'd like to test the API endpoints, use the following command:
 
 ## API Endpoints
 
